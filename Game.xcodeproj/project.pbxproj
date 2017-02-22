@@ -16,6 +16,7 @@
 		38B93F751E4FB5F700C02E31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38B93F731E4FB5F700C02E31 /* Main.storyboard */; };
 		38B93F771E4FB5F800C02E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38B93F761E4FB5F800C02E31 /* Assets.xcassets */; };
 		38B93F7A1E4FB5F800C02E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38B93F781E4FB5F800C02E31 /* LaunchScreen.storyboard */; };
+		38B93F911E4FC2B300C02E31 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 38B93F901E4FC2B300C02E31 /* MyParticle.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		38B93F761E4FB5F800C02E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38B93F791E4FB5F800C02E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38B93F7B1E4FB5F800C02E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		38B93F901E4FC2B300C02E31 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				38B93F781E4FB5F800C02E31 /* LaunchScreen.storyboard */,
 				38B93F7B1E4FB5F800C02E31 /* Info.plist */,
 				38B93F631E4FB5F700C02E31 /* Supporting Files */,
+				38B93F901E4FC2B300C02E31 /* MyParticle.sks */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -121,6 +124,7 @@
 				TargetAttributes = {
 					38B93F5F1E4FB5F700C02E31 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = H8DH7C92DM;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -149,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38B93F751E4FB5F700C02E31 /* Main.storyboard in Resources */,
+				38B93F911E4FC2B300C02E31 /* MyParticle.sks in Resources */,
 				38B93F6A1E4FB5F700C02E31 /* GameScene.sks in Resources */,
 				38B93F771E4FB5F800C02E31 /* Assets.xcassets in Resources */,
 				38B93F7A1E4FB5F800C02E31 /* LaunchScreen.storyboard in Resources */,
@@ -286,6 +291,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H8DH7C92DM;
 				INFOPLIST_FILE = Game/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CU.Game;
@@ -297,6 +303,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H8DH7C92DM;
 				INFOPLIST_FILE = Game/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CU.Game;
@@ -323,6 +330,7 @@
 				38B93F801E4FB5F800C02E31 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

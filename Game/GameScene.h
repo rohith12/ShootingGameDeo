@@ -7,7 +7,11 @@
 //
 
 #import <SpriteKit/SpriteKit.h>
-
-@interface GameScene : SKScene
+static const uint32_t projectileCategory     =  0x1 << 0;
+static const uint32_t monsterCategory        =  0x1 << 1;
+@interface GameScene : SKScene<SKPhysicsContactDelegate>
+@property (nonatomic) SKSpriteNode * player;
+@property (nonatomic) NSTimeInterval lastSpawnTimeInterval;
+@property (nonatomic) NSTimeInterval lastUpdateTimeInterval;
 
 @end
